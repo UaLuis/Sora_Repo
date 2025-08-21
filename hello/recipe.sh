@@ -1,5 +1,5 @@
 chmod +x configure
-./configure --prefix=/usr
+./configure --prefix=/opt/sora
 
 make -j$(nproc)
 make install
